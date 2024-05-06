@@ -1,0 +1,35 @@
+.align-center {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.image {
+    display: inline-block;
+    overflow: hidden;
+    margin: 100px 40% auto;
+    margin-top: 10px;
+    background: linear-gradient(180deg, #fdba01 0%, #07af5c 100%);
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+
+.image img:hover {
+    opacity: 0.3;
+    transform: scale(150%, 150%);
+    border-radius: 70%;
+}
+
+a:hover {
+    border-radius: 70%;
+}
+
+a {
+    transition: all 0.35s;
+}
